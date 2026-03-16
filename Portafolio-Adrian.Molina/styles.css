@@ -289,15 +289,15 @@ h1 {
 
 .experiencia .columna {
   padding: 40px 30px;
-  border: 2px solid rgba(199, 161, 123, 0.3); /* Borde elegante semi-transparente */
-  border-radius: 24px; /* Bordes ligeramente más redondeados */
+  border: 2px solid rgba(199, 161, 123, 0.3); 
+  border-radius: 24px; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   transition: all 0.4s ease;
-  background: linear-gradient(145deg, #ffffff, #faf7f2); /* Fondo con gradiente sutil */
-  box-shadow: 0 20px 40px rgba(139, 107, 77, 0.08); /* Sombra con tono cálido */
+  background: linear-gradient(145deg, #ffffff, #faf7f2); 
+  box-shadow: 0 20px 40px rgba(139, 107, 77, 0.08); 
   height: 100%;
   min-height: 550px;
   max-height: 550px;
@@ -305,18 +305,18 @@ h1 {
   overflow-y: auto;
   overflow-x: hidden;
   
-  /* Borde interior decorativo */
+ 
   outline: 1px solid rgba(255, 255, 255, 0.8);
   outline-offset: -4px;
 }
 
-/* Efecto de borde con gradiente en hover */
+
 .experiencia .columna:hover {
   border: 2px solid transparent;
   background: linear-gradient(145deg, #ffffff, #fcf9f5);
   box-shadow: 0 30px 60px rgba(139, 107, 77, 0.15);
   
-  /* Borde con gradiente en hover */
+  
   background-clip: padding-box;
   position: relative;
 }
@@ -343,7 +343,7 @@ h1 {
   }
 }
 
-/* Decoración superior con línea dorada */
+
 .experiencia .columna::after {
   content: '';
   position: absolute;
@@ -363,13 +363,13 @@ h1 {
   width: 100px;
 }
 
-/* Estilo para el scroll */
+
 .experiencia .columna::-webkit-scrollbar {
   width: 5px;
 }
 
 .experiencia .columna::-webkit-scrollbar-track {
-  background: #f5ebe1; /* Fondo cálido para el scroll */
+  background: #f5ebe1; 
   border-radius: 10px;
 }
 
@@ -382,7 +382,7 @@ h1 {
   background: linear-gradient(180deg, #d4b594, #9b7b5d);
 }
 
-/* Para los íconos */
+
 .experiencia i {
   font-size: 3rem;
   color: #8b6b4d;
@@ -393,7 +393,7 @@ h1 {
   box-shadow: 0 10px 20px rgba(139, 107, 77, 0.1);
   transition: all 0.3s ease;
   flex-shrink: 0;
-  border: 1px solid rgba(199, 161, 123, 0.2); /* Borde sutil en íconos */
+  border: 1px solid rgba(199, 161, 123, 0.2); 
 }
 
 .experiencia .columna:hover i {
@@ -416,7 +416,7 @@ h1 {
   padding-bottom: 10px;
 }
 
-/* Línea decorativa bajo el título */
+
 .experiencia-titulo::after {
   content: '';
   position: absolute;
@@ -447,20 +447,20 @@ h1 {
   text-align: center;
 }
 
-/* Contenedor de badges */
+
 .experiencia .columna .badges-contenedor {
   margin-top: auto;
   padding-top: 20px;
   flex-shrink: 0;
   width: 100%;
-  border-top: 2px solid rgba(199, 161, 123, 0.2); /* Línea decorativa más visible */
+  border-top: 2px solid rgba(199, 161, 123, 0.2); 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
 }
 
-/* Badges con nuevo estilo elegante */
+
 .experiencia .columna .badge {
   margin: 0;
   background: linear-gradient(145deg, #2c3e50, #1a2634) !important;
@@ -481,7 +481,7 @@ h1 {
   border-color: #c7a17b;
 }
 
-/* Ajustes responsive */
+
 @media screen and (max-width: 768px) {
   .experiencia .columna {
     min-height: 500px;
@@ -539,7 +539,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* Estilo mejorado para cada proyecto */
+
 .proyecto {
   position: relative;
   border-radius: 20px;
@@ -553,7 +553,7 @@ h1 {
   transition: all 0.4s ease;
 }
 
-/* Efecto de borde interior */
+
 .proyecto::before {
   content: '';
   position: absolute;
@@ -569,7 +569,7 @@ h1 {
   transition: opacity 0.4s ease;
 }
 
-/* Esquinas decorativas */
+
 .proyecto::after {
   content: '';
   position: absolute;
@@ -585,7 +585,7 @@ h1 {
   z-index: 3;
 }
 
-/* Esquina inferior izquierda */
+
 .proyecto .esquina-decorativa {
   position: absolute;
   bottom: 12px;
@@ -601,7 +601,7 @@ h1 {
   pointer-events: none;
 }
 
-/* Hover effects */
+
 .proyecto:hover {
   transform: translateY(-8px);
   box-shadow: 0 30px 60px rgba(139, 107, 77, 0.15);
@@ -622,7 +622,7 @@ h1 {
   filter: brightness(0.7) contrast(1.1);
 }
 
-/* Overlay mejorado */
+
 .overlay {
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
@@ -641,7 +641,7 @@ h1 {
   align-items: center;
   border-radius: 18px;
   
-  /* Borde en el overlay */
+ 
   border: 2px solid rgba(199, 161, 123, 0.3);
   box-shadow: inset 0 0 30px rgba(199, 161, 123, 0.1);
 }
@@ -702,7 +702,7 @@ h1 {
   box-shadow: 0 15px 30px rgba(199, 161, 123, 0.3);
 }
 
-/* Badge opcional para categoría del proyecto (si quieres añadirlo) */
+
 .proyecto-badge {
   position: absolute;
   top: 20px;
@@ -728,7 +728,7 @@ h1 {
   transform: translateY(0);
 }
 
-/* Responsive */
+
 @media screen and (max-width: 768px) {
   .proyectos-recientes {
     padding: 60px 20px;
@@ -1110,7 +1110,7 @@ footer::before {
   letter-spacing: 1px;
 }
 
-/* Estilos genéricos */
+
 i {
   font-size: 1rem;
   color: inherit;
@@ -1127,7 +1127,7 @@ i {
   color: #8b6b4d;
 }
 
-/* Adaptable (Responsivo) */
+
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
@@ -1210,7 +1210,7 @@ i {
   }
 }
 
-/* Animaciones adicionales */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
